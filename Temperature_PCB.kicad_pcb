@@ -121,17 +121,17 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555557_55555500)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
-			(plotframeref yes)
+			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
 			(pdf_front_fp_property_popups yes)
@@ -150,14 +150,14 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 4)
-			(mirror yes)
+			(outputformat 1)
+			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Docs/")
+			(outputdirectory "Gerbers/")
 		)
 	)
-	(footprint "MORNSUN:K78xx-500R3 ÕýÊä³ö"
+	(footprint "MORNSUN:K78xx-500R3"
 		(layer "F.Cu")
 		(uuid "060cbf30-0c79-45a7-927c-a411c8abebc2")
 		(at 140.5 113.125)
@@ -175,7 +175,6 @@
 		(property "Value" "~"
 			(at 0 3.1639 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "e5cba13d-6724-4335-b5fa-32f2432e954b")
 			(effects
 				(font
@@ -213,7 +212,46 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccc673ae-513d-447a-9741-1a3f6e4a361a")
+			(uuid "8c09d11d-b2df-48bc-83ac-eaca23d139e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "DCDC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a34a8515-9d84-4ac4-9dae-58432c45cc4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "306eb03a-c384-4efa-8afa-c3e75581c629")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8526beb-8447-4a5a-a282-a709ef2f0324")
 			(effects
 				(font
 					(size 1 1)
@@ -574,6 +612,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96f24b10-6476-4824-bb94-1680334bfc03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "NAND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa49e599-6bf9-4053-8972-9e5164e910be")
 			(effects
 				(font
 					(size 1 1)
@@ -1063,7 +1114,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Potentiometer"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1556,6 +1607,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac948424-706a-4237-8460-108cf62f5365")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Op-Amp"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f72fc855-07dc-4016-88f5-67f392909ab8")
 			(effects
 				(font
 					(size 1 1)
@@ -2143,6 +2207,19 @@
 				)
 			)
 		)
+		(property "Description P/N" "Linear regulator"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56ea402-601b-4cc0-8914-cde47276df1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/d405cd95-eeb2-4959-aedf-c0fca5da6a13")
 		(sheetname "/")
@@ -2655,7 +2732,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2828,7 +2905,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Thermistor SMD"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3066,7 +3143,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Potentiometer"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3316,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3765,6 +3842,19 @@
 				)
 			)
 		)
+		(property "Description P/N" "MOSFET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7ae6c4b-3f82-44d1-b77a-f596de3e85da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c4a97a31-9aad-4135-a3ab-240442776acf")
 		(sheetname "/")
@@ -4136,7 +4226,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor Tantalum SMD"
+		(property "Description P/N" "Capacitor Tantalum SMD 10V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4384,7 +4474,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4703,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4876,7 +4966,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Connector"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5650,7 +5740,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Relay"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6314,6 +6404,19 @@
 				)
 			)
 		)
+		(property "Description P/N" "Diode"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3913a03-f3f2-4e6e-9d01-8e5a3d328340")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/cba81b76-82f8-4f82-ba7d-5b923161c5fc")
 		(sheetname "/")
@@ -6750,7 +6853,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6910,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7083,7 +7186,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7550,7 +7653,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7762,7 +7865,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8083,7 +8186,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Connector"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8391,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8603,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8807,7 +8910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9001,7 +9104,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor Tantalum SMD"
+		(property "Description P/N" "Capacitor Tantalum SMD 10V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9424,7 +9527,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9632,7 +9735,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9826,7 +9929,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10394,7 +10497,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Resistor SMD"
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11185,6 +11288,158 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "0678d79c-ddda-444c-a142-c11d2603a448")
+		(pts
+			(xy 111.500002 99.000002) (xy 185.499998 99.000002)
+		)
+		(height -20.750002)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "74"
+			(at 148.5 77.1 0)
+			(layer "User.1")
+			(uuid "0678d79c-ddda-444c-a142-c11d2603a448")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "405c5921-3780-462c-9bcd-85f3508910ce")
+		(pts
+			(xy 181 99) (xy 181 151)
+		)
+		(height 10.75)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "52"
+			(at 190.6 125 90)
+			(layer "User.1")
+			(uuid "405c5921-3780-462c-9bcd-85f3508910ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "854b8822-caa2-46e2-b45a-79aed4b729d8")
+		(pts
+			(xy 116 99) (xy 181 99)
+		)
+		(height -12.25)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "65"
+			(at 148.5 85.6 0)
+			(layer "User.1")
+			(uuid "854b8822-caa2-46e2-b45a-79aed4b729d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "cde1297e-6104-4903-9c47-f9bc8aa2ad99")
+		(pts
+			(xy 180.999998 94.5) (xy 180.999998 155.5)
+		)
+		(height 19.000002)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "61"
+			(at 198.85 125 90)
+			(layer "User.1")
+			(uuid "cde1297e-6104-4903-9c47-f9bc8aa2ad99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
